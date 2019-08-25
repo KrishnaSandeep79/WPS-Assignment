@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>pictures</title>
+<style>
+#img1 {
+       margin-left:0px;
+       margin-top:90px;
+       width:230px;
+       height:180px;                   
+}
+#img2 {
+       margin-left:15px;
+       margin-top:90px;
+       width:250px;
+       height:180px;                   
+}
+#img3 {
+       margin-left:20px;
+       margin-top:90px;
+       width:230px;
+       height:180px;                   
+
+</style>
+</head>
+<body>
+<h3>Changing pictures</h3>
+<hr>
+<img id="img1" src="C:/Users/rajareddy/Desktop/pics/pikachu.jpg" alt="pikachu" onmouseover="this.src='C:/Users/rajareddy/Desktop/pics/ash.jpg'
+" onmouseout="this.src='C:/Users/rajareddy/Desktop/pics/pikachu.jpg'">
+<img id="img2" src="C:/Users/rajareddy/Desktop/pics/garden.jpg" alt="garden" onmouseover="this.src='C:/Users/rajareddy/Desktop/pics/butterfly.jpg'
+" onmouseout="this.src='C:/Users/rajareddy/Desktop/pics/garden.jpg'">
+<img id="img3" src="C:/Users/rajareddy/Desktop/pics/desert.jpg" alt="desert" onmouseover="this.src='C:/Users/rajareddy/Desktop/pics/hillstation.jpg'
+" onmouseout="this.src='C:/Users/rajareddy/Desktop/pics/desert.jpg'">
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>pictures</title>
+<style>
+#img1 {
+       margin-left:10px;
+       margin-top:90px;
+       width:210px;
+       height:180px;                   
+}
+#img2 {
+       margin-left:100px;
+       margin-top:90px;
+       width:210px;
+       height:180px;                   
+}
+
+</style>
+</head>
+<body>
+<h3>Changing pictures</h3>
+<hr>
+<img id="img1" src="C:/Users/rajareddy/Desktop/lotus.jpg" alt="lotus before bloom" onmouseover="this.src='C:/Users/rajareddy/Desktop/lbloom.jpg'
+" onmouseout="this.src='C:/Users/rajareddy/Desktop/lotus.jpg'">
+<img id="img2" src="C:/Users/rajareddy/Desktop/cub.jpg" alt="tiger cub" onmouseover="this.src='C:/Users/rajareddy/Desktop/tiger.jpg'
+" onmouseout="this.src='C:/Users/rajareddy/Desktop/cub.jpg'">
+<img id="img3" src="C:" alt="lotus before bloom" onmouseover="this.src='C:/Users/rajareddy/Desktop/lbloom.jpg'
+" onmouseout="this.src='C:/Users/rajareddy/Desktop/lotus.jpg'">
+</body>
+</html>

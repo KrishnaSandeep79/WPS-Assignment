@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>stacked paras</title>
+<style>
+#first { position:absolute;
+         top:200px;
+         left:180px;
+         border:2px solid cornflowerblue;
+         z-index:0;
+         }
+#second { position:absolute;
+         top:220px;
+         left:200px;
+         border:2px solid green;
+         z-index:0;
+         }
+#third { position:absolute;
+         top:240px;
+         left:220px;
+         border:2px solid tomato;
+         z-index:0;
+         }
+         
+</style>
+<script type=text/javascript>
+var topLayer="three";
+function display(obj)
+{
+  document.getElementById(topLayer).style.zIndex="0";
+  document.getElementById(obj).style.zIndex="1";
+  topLayer=obj;
+}	
+</script>
+</head>
+<body>
+<h3>Paragraphs stacked over each other:</h3>
+<hr>
+<div id="first" onMouseOver="display('first')">
+<pre>
+<b>Harry Potter</b>
+Harry Potter is a British-American 
+film series based on the eponymous 
+novels by authorJ. K. Rowling. The 
+series is distributed by Warner Bros.
+</pre>
+</div>
+<div id="second" onMouseOver="display('second')">
+<pre>
+<b>Percy Jackson</b>
+Perseus "Percy" Jackson is a fictional
+character, the title character and 
+narrator of Rick Riordan's Percy Jackson 
+& the Olympians series.
+</pre>
+</div>
+<div id="third" onMouseOver="display('third')">
+<pre>
+<b><emp>Chronicles of Narnia</emp></b>
+The Chronicles of Narnia series of films 
+is based on The Chronicles of Narnia, a 
+series of novels by C. S. Lewis.The series
+revolves around the adventures of children
+in the world of Narnia
+</pre>
+</div>
+<b id="1"><b>
+</body>
+</html>

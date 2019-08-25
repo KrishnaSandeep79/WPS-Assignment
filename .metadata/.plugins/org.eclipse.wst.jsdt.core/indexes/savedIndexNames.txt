@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\rajareddy\Desktop\WPS assignment\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+695267078.index
+314057711.index
+3332229180.index
+2176125481.index
+2282740037.index
+492107605.index

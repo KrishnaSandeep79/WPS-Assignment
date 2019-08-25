@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>stacked paras</title>
+</head>
+<body>
+<h3>Paragraphs stacked over each other:</h3>
+<hr>
+<div id="first">
+<pre>
+<b>Harry Potter</b>
+Harry Potter is a British-American 
+film series based on the eponymous 
+novels by authorJ. K. Rowling. The 
+series is distributed by Warner Bros.
+</pre>
+</div>
+<div id="second">
+<pre>
+<b>Percy Jackson</b>
+Perseus "Percy" Jackson is a fictional
+character, the title character and 
+narrator of Rick Riordan's Percy Jackson 
+& the Olympians series.
+</pre>
+</div>
+<div id="third">
+<pre>
+<b>Chronicles of Narnia</b>
+The Chronicles of Narnia series of films 
+is based on The Chronicles of Narnia, a 
+series of novels by C. S. Lewis. From the 
+seven books, three were adapted —The Lion,
+the Witch and the Wardrobe (2005).
+</pre>
+</div>
+
+</body>
+</html>

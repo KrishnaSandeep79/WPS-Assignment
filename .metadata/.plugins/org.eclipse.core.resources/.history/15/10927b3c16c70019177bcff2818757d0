@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>stacked paras</title>
+        <style type="text/css">
+            #layer1
+                {
+                    border:solid thick black;
+                    background-color:brown;
+                    position:absolute;
+                    top:200px;
+                    left:100px;
+                    z-index:0;
+                }
+            #layer2
+                {
+                    border:solid thick black;
+                    background-color:gray;
+                    position:absolute;
+                    top:220px;
+                    left:120px;
+                    z-index:0;
+                }
+            #layer3
+                {
+                    border:solid thick black;
+                    background-color:white;
+                    
+                    position:absolute;
+                    top:240px;
+                    left:140px;
+                    z-index:0;
+                }
+        </style>
+</head>
+    <body>
+        <script type=text/javascript>
+            var topLayer="layer3";
+            function mover(toTop)
+                {
+                    document.getElementById(topLayer).style.zIndex="0";
+                    document.getElementById(toTop).style.zIndex="1";
+                    topLayer=toTop;
+                }
+        </script>
+        <pre id=layer1 onMouseOver=mover('layer1');>
+        <b>Harry Potter</b>
+        Harry Potter is a British-American 
+        film series based on the eponymous 
+        novels by authorJ. K. Rowling. The 
+        series is distributed by Warner Bros.
+        </pre>
+        <pre id=layer2 onMouseOver=mover('layer2');>
+        <b>Chronicles of Narnia</b>
+        The Chronicles of Narnia series of films 
+        is based on The Chronicles of Narnia, a 
+        series of novels by C. S. Lewis.The series
+        revolves around the adventures of children
+        in the world of Narnia.
+        </pre>
+        <pre id=layer3 onMouseOver=mover('layer3');>
+        <b>Percy Jackson</b>
+        Perseus "Percy" Jackson is a fictional
+        character, the title character and 
+        narrator of Rick Riordan's Percy Jackson 
+        & the Olympians series.
+        </pre>
+    </body>
+ </html>

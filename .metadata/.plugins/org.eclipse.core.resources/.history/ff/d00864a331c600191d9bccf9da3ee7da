@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>stacked paras</title>
+</head>
+<body>
+<h3>Paragraphs stacked over each other:</h3>
+<hr>
+<div id="first">
+<pre>Harry Potter is a British-American film 
+series based on the eponymous novels by author
+J. K. Rowling. The series is distributed by 
+Warner Bros.
+</pre></div>
+<div id="second"><p></p></div>
+<div id="third"><p></p></div>
+
+</body>
+</html>
